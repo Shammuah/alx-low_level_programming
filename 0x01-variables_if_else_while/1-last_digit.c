@@ -11,7 +11,8 @@
 
 int main(void)
 {
-	int n, last_digit;
+	int n;
+	int last_digit;
 
 	/**
 	 * n = range (0) - RAND_MAX / 2
