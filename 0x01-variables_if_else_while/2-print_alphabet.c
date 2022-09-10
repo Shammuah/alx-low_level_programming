@@ -3,7 +3,7 @@
 /**
  * main - alphabets in lowercase
  *
- * Return - 0 if successful
+ * Return: 0 if successful
  *
  */
 
