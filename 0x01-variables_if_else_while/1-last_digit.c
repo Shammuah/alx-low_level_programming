@@ -11,14 +11,11 @@
 
 int main(void)
 {
-	int n;
-	int last_digit;
-
+	int n, last_digit;
 	/**
-	 * n = range (0) - RAND_MAX / 2
+	 * n = range 0 - RAND_MAX
 	 *
 	 */
-
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	last_digit = n % 10;
