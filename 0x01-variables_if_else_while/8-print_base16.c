@@ -9,16 +9,13 @@
 
 int main(void)
 {
-	char a = 0;
-	
+	char a = 0;	
 	while (a < 10)
 	{
 		putchar('0' + a);
 		a++;
 	}
-	
 	a = 'a';
-
 	while (a < 'g')
 	{
 		putchar(a);
