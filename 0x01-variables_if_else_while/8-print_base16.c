@@ -19,7 +19,7 @@ int main(void)
 	
 	a = 'a';
 
-	while (a < g)
+	while (a < 'g')
 	{
 		putchar(a);
 		a++;
