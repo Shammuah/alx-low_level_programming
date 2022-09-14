@@ -1,3 +1,4 @@
+#include "main.h"
 #include <stdio.h>
 
 /**
@@ -9,6 +10,13 @@
 
 int main(void)
 {
-	printf("_putchar\n");
+	char* letters[8] = {"_","p","u","t","c","h","a","r"};
+	char letter;
+
+	for (letter = 0; letter < 8; letter++)
+	{
+		_putchar(letters[letter]);
+	}
+	_putchar('\n');
 	return (0);
 }
