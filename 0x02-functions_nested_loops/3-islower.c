@@ -3,6 +3,8 @@
 /**
  * _islower - Check for lowercase character
  *
+ * @c - is the parameter
+ *
  * Return: 1 if lowercase and 0 if not
  *
  */
