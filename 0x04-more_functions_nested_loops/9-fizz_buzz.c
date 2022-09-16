@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - FizzzBuzz test
- * Return: nothing
+ * main - FizzBuzz test
+ * Return: Always 0
  */
 
 int main(void)
@@ -29,4 +29,5 @@ int main(void)
 		}
 	}
 	printf("\n");
+	return (0);
 }
