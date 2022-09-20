@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * main - reset to 98
+ * reset_to_98 - reset to 98
  * @n: Parameter
  * Return: Always 0.
  */
