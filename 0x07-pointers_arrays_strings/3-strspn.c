@@ -5,6 +5,7 @@
  * _strspn - Returns the number of bytes in the initial segment of s
  * @s: Segment
  * @accept: Bytes
+ * Return: Always 0
  */
 
 unsigned int _strspn(char *s, char *accept)
