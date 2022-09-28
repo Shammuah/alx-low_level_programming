@@ -5,6 +5,7 @@
  * _strspn - Returns number of bytes in segment s
  * @s: String
  * @accept: Bytes
+ * Return: Always 0
  */
 
 unsigned int _strspn(char *s, char *accept)
@@ -21,7 +22,7 @@ unsigned int _strspn(char *s, char *accept)
 				break;
 			}
 		}
-		if (accept[j] = '\0')
+		if (accept[j] == '\0')
 			break;
 	}
 	return (b);
