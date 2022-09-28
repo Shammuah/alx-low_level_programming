@@ -2,28 +2,27 @@
 #include <stdio.h>
 
 /**
- * _strspn - Returns number of bytes in segment s
- * @s: String
+ * _strspn - Returns the number of bytes in the initial segment of s
+ * @s: Segment
  * @accept: Bytes
- * Return: Always 0
  */
 
 unsigned int _strspn(char *s, char *accept)
 {
-	int i, j, b = 0;
+	int s_index, accept_index, b = 0;
 
-	for (i = 0; s[i] >= '\0'; i++)
+	for (s_index = 0; s[s_index] >= '\0'; s_index++)
 	{
-		for (j = 0; accept[j] >= '\0'; j++)
+		for (accept_index = 0; accept[accept_index] >= '\0'; accept_index++)
 		{
-			if (s[i] == accept[j])
+			if (s[sindex] == accept[accept_index])
 			{
 				b++;
 				break;
 			}
 		}
-		if (accept[j] == '\0')
+		if (accept[accept_index] == '\0')
 			break;
 	}
 	return (b);
-}
+}	
