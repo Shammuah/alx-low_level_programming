@@ -12,6 +12,7 @@
 int main(int argc, char *argv[])
 {
 	int i;
+
         int j = 1;
 
 	if (argc == 1 || argc == 2)
