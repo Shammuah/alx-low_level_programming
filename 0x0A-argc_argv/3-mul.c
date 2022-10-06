@@ -12,7 +12,7 @@
 int main(int argc, char *argv[])
 {
 	int i;
-	int j;
+        int j = 1;
 
 	if (argc == 1 || argc == 2)
 	{
@@ -21,9 +21,8 @@ int main(int argc, char *argv[])
 	}
 	else
 	{
-		j = 1;
 
-		for (i = 1; 1 < 3; i++)
+		for (i = 1; i < 3; i++)
 		{
 			j *= atoi(argv[i]);
 		}
