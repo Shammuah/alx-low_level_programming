@@ -27,6 +27,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 		;
 
 	namel++;
+
 	dog->name = malloc(namel * (sizeof(char)));
 
 	if (dog->name == NULL)
@@ -44,6 +45,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 		;
 
 	ownerl++;
+
 	dog->owner = malloc(ownerl * (sizeof(char)));
 
 	if (dog->owner == NULL)
