@@ -7,7 +7,6 @@
  * @c: The char to be assigned to
  * Return: Pointer to array, NULL if size = 0
  */
-
 char *create_array(unsigned int size, char c)
 {
 	char *array;
